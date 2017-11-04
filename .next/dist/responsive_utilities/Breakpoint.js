@@ -42,6 +42,9 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/xujinwei/next-naughtyswing/responsive_utilities/Breakpoint.js';
+
+
 var breakpoints = {
     desktop: '(min-width: 1025px)',
     tablet: '(min-width: 768px) and (max-width: 1024px)',
@@ -64,7 +67,11 @@ var Breakpoint = function (_React$Component) {
 
             var breakpoint = breakpoints[name] || breakpoints.desktop;
 
-            return _react2.default.createElement(_reactResponsive2.default, (0, _extends3.default)({}, this.props, { query: breakpoint }), this.props.children);
+            return _react2.default.createElement(_reactResponsive2.default, (0, _extends3.default)({}, this.props, { query: breakpoint, __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 21
+                }
+            }), this.props.children);
         }
     }]);
 
@@ -72,3 +79,10 @@ var Breakpoint = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Breakpoint;
+
+
+Breakpoint.propTypes = {
+    name: _propTypes2.default.string,
+    children: _propTypes2.default.node
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJlc3BvbnNpdmVfdXRpbGl0aWVzL0JyZWFrcG9pbnQuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJNZWRpYVF1ZXJ5IiwiUHJvcFR5cGVzIiwiYnJlYWtwb2ludHMiLCJkZXNrdG9wIiwidGFibGV0IiwicGhvbmUiLCJCcmVha3BvaW50IiwicHJvcHMiLCJuYW1lIiwiYnJlYWtwb2ludCIsImNoaWxkcmVuIiwiQ29tcG9uZW50IiwicHJvcFR5cGVzIiwic3RyaW5nIiwibm9kZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU87Ozs7QUFDUCxBQUFPOzs7Ozs7Ozs7QUFFUCxJQUFNO2FBQWMsQUFFaEI7WUFGZ0IsQUFHaEI7V0FISixBQUFvQjtBQUFBLEFBQ2hCOztJQUtpQixBO3dDQUNqQjs7d0JBQUEsQUFBWSxPQUFPOzRDQUFBOzs2SUFBQSxBQUNULEFBQ1Q7Ozs7O2lDQUNRO2dCQUFBLEFBQ0UsT0FBUSxLQURWLEFBQ2UsTUFEZixBQUNFLEFBRVA7O2dCQUFJLGFBQWEsWUFBQSxBQUFZLFNBQVMsWUFBdEMsQUFBa0QsQUFFbEQ7O21DQUNJLEFBQUMsb0VBQWUsS0FBaEIsQUFBcUIsU0FBTyxPQUE1QixBQUFtQzs4QkFBbkM7Z0NBQUEsQUFDQztBQUREO2NBQUEsT0FDQyxBQUFLLE1BRlYsQUFDSSxBQUNZLEFBR25COzs7OztFQWRtQyxnQixBQUFNOztrQkFBekIsQTs7O0FBa0JyQixXQUFBLEFBQVc7VUFDRCxvQkFEYSxBQUNILEFBQ2hCO2NBQVUsb0JBRmQsQUFBdUIsQUFFQztBQUZELEFBQ25CIiwiZmlsZSI6IkJyZWFrcG9pbnQuanMiLCJzb3VyY2VSb290IjoiL1VzZXJzL3h1amlud2VpL25leHQtbmF1Z2h0eXN3aW5nIn0=
