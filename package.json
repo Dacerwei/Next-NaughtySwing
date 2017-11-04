@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
     "next": "^4.1.4",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "react-responsive": "^3.0.0"
   }
 }

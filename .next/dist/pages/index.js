@@ -28,10 +28,11 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _Layout = require('../containers/Layout');
+
+var _Layout2 = _interopRequireDefault(_Layout);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _jsxFileName = '/Users/xujinwei/next-naughtyswing/pages/index.js?entry';
-
 
 var Index = function (_React$Component) {
     (0, _inherits3.default)(Index, _React$Component);
@@ -45,12 +46,7 @@ var Index = function (_React$Component) {
     (0, _createClass3.default)(Index, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement('div', {
-                __source: {
-                    fileName: _jsxFileName,
-                    lineNumber: 6
-                }
-            }, 'HELL WORLD');
+            return _react2.default.createElement('div', null, _react2.default.createElement(_Layout2.default, null, _react2.default.createElement('h1', null, 'Naughty Swing')));
         }
     }]);
 
@@ -58,4 +54,3 @@ var Index = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Index;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiSW5kZXgiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7Ozs7Ozs7O0lBRUQsQTs7Ozs7Ozs7Ozs7aUNBQ08sQUFDTDttQ0FDSSxjQUFBOzs4QkFBQTtnQ0FBQTtBQUFBO0FBQUEsYUFBQSxFQURKLEFBQ0ksQUFJUDs7Ozs7RUFQZSxnQkFBTSxBLEFBVTFCOztrQkFBQSxBQUFlIiwiZmlsZSI6ImluZGV4LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy94dWppbndlaS9uZXh0LW5hdWdodHlzd2luZyJ9
