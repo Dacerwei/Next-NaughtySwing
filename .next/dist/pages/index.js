@@ -34,6 +34,9 @@ var _Layout2 = _interopRequireDefault(_Layout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/xujinwei/next-naughtyswing/pages/index.js?entry';
+
+
 var Index = function (_React$Component) {
     (0, _inherits3.default)(Index, _React$Component);
 
@@ -46,7 +49,22 @@ var Index = function (_React$Component) {
     (0, _createClass3.default)(Index, [{
         key: 'render',
         value: function render() {
-            return _react2.default.createElement('div', null, _react2.default.createElement(_Layout2.default, null, _react2.default.createElement('h1', null, 'Naughty Swing')));
+            return _react2.default.createElement('div', {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 7
+                }
+            }, _react2.default.createElement(_Layout2.default, {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 8
+                }
+            }, _react2.default.createElement('h1', {
+                __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 9
+                }
+            }, 'Naughty Swing')));
         }
     }]);
 
@@ -54,3 +72,4 @@ var Index = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Index;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiTGF5b3V0IiwiSW5kZXgiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU8sQUFBWTs7Ozs7Ozs7O0ksQUFFYjs7Ozs7Ozs7Ozs7aUNBQ08sQUFDTDttQ0FDSSxjQUFBOzs4QkFBQTtnQ0FBQSxBQUNJO0FBREo7QUFBQSxhQUFBLGtCQUNJLEFBQUM7OzhCQUFEO2dDQUFBLEFBQ0k7QUFESjtBQUFBLCtCQUNJLGNBQUE7OzhCQUFBO2dDQUFBO0FBQUE7QUFBQSxlQUhaLEFBQ0ksQUFDSSxBQUNJLEFBSWY7Ozs7O0VBVGUsZ0JBQU0sQSxBQVkxQjs7a0JBQUEsQUFBZSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMveHVqaW53ZWkvbmV4dC1uYXVnaHR5c3dpbmcifQ==
