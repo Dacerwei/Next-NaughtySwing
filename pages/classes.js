@@ -1,14 +1,14 @@
 import React from 'react';
-import Link from 'next/link';
+import Layout from '../containers/Layout';
+
 
 export default class Classes extends React.Component {
     render() {
         return(
             <div>
-                <Link href="/">
-                    <a>Home</a>
-                </Link>
-                <h1>Classes</h1>
+                <Layout>
+                    <h1>Classes</h1>
+                </Layout>
             </div>
         );
     }

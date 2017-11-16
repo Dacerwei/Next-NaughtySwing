@@ -34,19 +34,19 @@ var _Layout2 = _interopRequireDefault(_Layout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/xujinwei/next-naughtyswing/pages/index.js?entry';
+var _jsxFileName = '/Users/xujinwei/next-naughtyswing/pages/portfolio.js?entry';
 
 
-var Index = function (_React$Component) {
-    (0, _inherits3.default)(Index, _React$Component);
+var Portfolio = function (_React$Component) {
+    (0, _inherits3.default)(Portfolio, _React$Component);
 
-    function Index() {
-        (0, _classCallCheck3.default)(this, Index);
+    function Portfolio() {
+        (0, _classCallCheck3.default)(this, Portfolio);
 
-        return (0, _possibleConstructorReturn3.default)(this, (Index.__proto__ || (0, _getPrototypeOf2.default)(Index)).apply(this, arguments));
+        return (0, _possibleConstructorReturn3.default)(this, (Portfolio.__proto__ || (0, _getPrototypeOf2.default)(Portfolio)).apply(this, arguments));
     }
 
-    (0, _createClass3.default)(Index, [{
+    (0, _createClass3.default)(Portfolio, [{
         key: 'render',
         value: function render() {
             return _react2.default.createElement('div', {
@@ -64,12 +64,12 @@ var Index = function (_React$Component) {
                     fileName: _jsxFileName,
                     lineNumber: 9
                 }
-            }, 'Naughty Swing')));
+            }, 'Portfolio')));
         }
     }]);
 
-    return Index;
+    return Portfolio;
 }(_react2.default.Component);
 
-exports.default = Index;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiTGF5b3V0IiwiSW5kZXgiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU8sQUFBWTs7Ozs7Ozs7O0ksQUFFYjs7Ozs7Ozs7Ozs7aUNBQ08sQUFDTDttQ0FDSSxjQUFBOzs4QkFBQTtnQ0FBQSxBQUNJO0FBREo7QUFBQSxhQUFBLGtCQUNJLEFBQUM7OzhCQUFEO2dDQUFBLEFBQ0k7QUFESjtBQUFBLCtCQUNJLGNBQUE7OzhCQUFBO2dDQUFBO0FBQUE7QUFBQSxlQUhaLEFBQ0ksQUFDSSxBQUNJLEFBSWY7Ozs7O0VBVGUsZ0JBQU0sQSxBQVkxQjs7a0JBQUEsQUFBZSIsImZpbGUiOiJpbmRleC5qcz9lbnRyeSIsInNvdXJjZVJvb3QiOiIvVXNlcnMveHVqaW53ZWkvbmV4dC1uYXVnaHR5c3dpbmcifQ==
+exports.default = Portfolio;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL3BvcnRmb2xpby5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIkxheW91dCIsIlBvcnRmb2xpbyIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPOzs7O0FBQ1AsQUFBTyxBQUFZOzs7Ozs7Ozs7SSxBQUVFOzs7Ozs7Ozs7OztpQ0FDUixBQUNMO21DQUNJLGNBQUE7OzhCQUFBO2dDQUFBLEFBQ0k7QUFESjtBQUFBLGFBQUEsa0JBQ0ksQUFBQzs7OEJBQUQ7Z0NBQUEsQUFDSTtBQURKO0FBQUEsK0JBQ0ksY0FBQTs7OEJBQUE7Z0NBQUE7QUFBQTtBQUFBLGVBSFosQUFDSSxBQUNJLEFBQ0ksQUFJZjs7Ozs7RUFUa0MsZ0JBQU0sQTs7a0JBQXhCLEEiLCJmaWxlIjoicG9ydGZvbGlvLmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy94dWppbndlaS9uZXh0LW5hdWdodHlzd2luZyJ9
