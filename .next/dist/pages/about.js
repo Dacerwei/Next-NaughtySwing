@@ -34,19 +34,19 @@ var _Layout2 = _interopRequireDefault(_Layout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/xujinwei/next-naughtyswing/pages/portfolio.js?entry';
+var _jsxFileName = '/Users/xujinwei/next-naughtyswing/pages/about.js?entry';
 
 
-var Portfolio = function (_React$Component) {
-    (0, _inherits3.default)(Portfolio, _React$Component);
+var About = function (_React$Component) {
+    (0, _inherits3.default)(About, _React$Component);
 
-    function Portfolio() {
-        (0, _classCallCheck3.default)(this, Portfolio);
+    function About() {
+        (0, _classCallCheck3.default)(this, About);
 
-        return (0, _possibleConstructorReturn3.default)(this, (Portfolio.__proto__ || (0, _getPrototypeOf2.default)(Portfolio)).apply(this, arguments));
+        return (0, _possibleConstructorReturn3.default)(this, (About.__proto__ || (0, _getPrototypeOf2.default)(About)).apply(this, arguments));
     }
 
-    (0, _createClass3.default)(Portfolio, [{
+    (0, _createClass3.default)(About, [{
         key: 'render',
         value: function render() {
             return _react2.default.createElement('div', {
@@ -64,12 +64,12 @@ var Portfolio = function (_React$Component) {
                     fileName: _jsxFileName,
                     lineNumber: 9
                 }
-            }, 'Portfolio')));
+            }, 'About')));
         }
     }]);
 
-    return Portfolio;
+    return About;
 }(_react2.default.Component);
 
-exports.default = Portfolio;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL3BvcnRmb2xpby5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsIkxheW91dCIsIlBvcnRmb2xpbyIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxBQUFPOzs7O0FBQ1AsQUFBTyxBQUFZOzs7Ozs7Ozs7SSxBQUVFOzs7Ozs7Ozs7OztpQ0FDUixBQUNMO21DQUNJLGNBQUE7OzhCQUFBO2dDQUFBLEFBQ0k7QUFESjtBQUFBLGFBQUEsa0JBQ0ksQUFBQzs7OEJBQUQ7Z0NBQUEsQUFDSTtBQURKO0FBQUEsK0JBQ0ksY0FBQTs7OEJBQUE7Z0NBQUE7QUFBQTtBQUFBLGVBSFosQUFDSSxBQUNJLEFBQ0ksQUFJZjs7Ozs7RUFUa0MsZ0JBQU0sQTs7a0JBQXhCLEEiLCJmaWxlIjoicG9ydGZvbGlvLmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy94dWppbndlaS9uZXh0LW5hdWdodHlzd2luZyJ9
+exports.default = About;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2Fib3V0LmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwiTGF5b3V0IiwiQWJvdXQiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsQUFBTzs7OztBQUNQLEFBQU8sQUFBWTs7Ozs7Ozs7O0ksQUFFRTs7Ozs7Ozs7Ozs7aUNBQ1IsQUFDTDttQ0FDSSxjQUFBOzs4QkFBQTtnQ0FBQSxBQUNJO0FBREo7QUFBQSxhQUFBLGtCQUNJLEFBQUM7OzhCQUFEO2dDQUFBLEFBQ0k7QUFESjtBQUFBLCtCQUNJLGNBQUE7OzhCQUFBO2dDQUFBO0FBQUE7QUFBQSxlQUhaLEFBQ0ksQUFDSSxBQUNJLEFBSWY7Ozs7O0VBVDhCLGdCQUFNLEE7O2tCQUFwQixBIiwiZmlsZSI6ImFib3V0LmpzP2VudHJ5Iiwic291cmNlUm9vdCI6Ii9Vc2Vycy94dWppbndlaS9uZXh0LW5hdWdodHlzd2luZyJ9
