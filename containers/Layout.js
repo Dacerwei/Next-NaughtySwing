@@ -1,6 +1,7 @@
 import React from 'react';
 import HTMLHead from '../components/Head';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 export default class Layout extends React.Component {
@@ -14,6 +15,7 @@ export default class Layout extends React.Component {
                     <HTMLHead />
                     <Header />
                     {this.props.children}
+                    <Footer />
                     <style jsx global>{`
                         .naughty {
                             color: orange;
