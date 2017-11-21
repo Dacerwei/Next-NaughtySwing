@@ -79,14 +79,12 @@ export default class Header extends React.Component {
                             height: 80px;
                             margin: 0;
                             padding: 0;
-                            display: flex;
+                            display: relative;
                         }
-
                         .logo {
                             position: absolute;
                             top: 1%;
-                            left: 1%;
-                            width: 30%;
+                            left: 5%;
                             width: 100px;
                             margin: 0;
                             padding: 0;
@@ -95,15 +93,15 @@ export default class Header extends React.Component {
                             width: 100%;
                             height: auto;
                             margin: 0 auto;
-                        },
+                        }
                         .menu-icon {
                             position: absolute;
-                            top: 5%;
-                            right: 5%;
-                            width: 30%;
+                            top: 1%;
+                            right: 1%;
+                            width: 80px;
+                            text-align: center;
                             margin: 0;
                             padding: 0;
-                            text-align: right;
                         }
 
                     `}</style>
