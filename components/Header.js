@@ -4,6 +4,7 @@ import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui/svg-icons/navigation/menu';
 import CloseIcon from 'material-ui/svg-icons/navigation/close';
+import Logo from '../static/ns_logo.svg';
 
 export default class Header extends React.Component {
     constructor(props) {
@@ -26,7 +27,7 @@ export default class Header extends React.Component {
                 {/* TODO: 改為ns logo */}
                 <Link href="/">
                     <div className="logo">
-                        <p>Naughty Swing</p>
+                        <Logo id="nslogo"/>
                     </div>
                 </Link>
                 <div className="menu-icon">
@@ -82,12 +83,23 @@ export default class Header extends React.Component {
                         }
 
                         .logo {
-                            width: 70%;
+                            position: absolute;
+                            top: 1%;
+                            left: 1%;
+                            width: 30%;
+                            width: 100px;
                             margin: 0;
                             padding: 0;
                         }
-
+                        #nslogo {
+                            width: 100%;
+                            height: auto;
+                            margin: 0 auto;
+                        },
                         .menu-icon {
+                            position: absolute;
+                            top: 5%;
+                            right: 5%;
                             width: 30%;
                             margin: 0;
                             padding: 0;

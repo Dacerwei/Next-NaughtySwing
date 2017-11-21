@@ -4,7 +4,7 @@ import MainHighlight from '../components/mobile/MainHighlight';
 import ClassesHighlight from '../components/mobile/ClassesHighlight';
 import AboutHighlight from '../components/mobile/AboutHighlight';
 
-class Index extends React.Component {
+export default class Index extends React.Component {
     render() {
         return(
             <div className="page-container" id="index">
@@ -14,8 +14,6 @@ class Index extends React.Component {
                     <AboutHighlight/>
                 </Layout>
             </div>
-        );
+        )
     }
 }
-
-export default Index;
