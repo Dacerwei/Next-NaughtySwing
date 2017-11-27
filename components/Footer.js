@@ -6,32 +6,32 @@ class Footer extends React.Component {
         return(
             <footer className='footer'>
                 <Link href="/" ><div className='logo-wrapper'>
-                    <h1 className='logo-source'>Naughty Swing</h1>
+                    <a><h1 className='logo-source'>Naughty Swing</h1></a>
                 </div></Link>
                 <ul className='nav-list'>
                     <nav className='nav-item'>
                         <Link href="/about" >
-                            About Us
+                            <a>About Us</a>
                         </Link>
                     </nav>
                     <nav className='nav-item'>
                         <Link href="/portfolio" >
-                            Portfolio
+                            <a>Portfolio</a>
                         </Link>
                     </nav>
                     <nav className='nav-item'>
-                        <Link href="/cooperative" >
-                            Co-op
+                        <Link href="/coop" >
+                            <a>Co-op</a>
                         </Link>
                     </nav>
                     <nav className='nav-item'>
                         <Link href="/classes" >
-                            Classes
+                            <a>Classes</a>
                         </Link>
                     </nav>
                     <nav className='nav-item'>
                         <Link href="/events">
-                            Events
+                            <a>Events</a>
                         </Link>
                     </nav>
                 </ul>

@@ -79,7 +79,7 @@ export default class Header extends React.Component {
                             height: 80px;
                             margin: 0;
                             padding: 0;
-                            display: relative;
+                            position: relative;
                         }
                         .logo {
                             position: absolute;
@@ -103,7 +103,6 @@ export default class Header extends React.Component {
                             margin: 0;
                             padding: 0;
                         }
-
                     `}</style>
             </header>
         );

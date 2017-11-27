@@ -18,12 +18,11 @@ export default class Layout extends React.Component {
                     <Footer />
                     <style jsx global>{`
                         .naughty {
-                            color: orange;
+                            color: #FFA500;
                         }
-
                         .highlight-container {
-                            background-color: black;
-                            color: white;
+                            background-color: #000000;
+                            color: #FFFFFF;
                         }
                     `}</style>
                 </div>
