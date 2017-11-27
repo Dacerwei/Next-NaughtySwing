@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../containers/Layout';
-import Experiences from '../data/Experiences';
+import Experiences from '../data/ExperienceSets';
 import Classnames from 'classnames';
 import _ from 'lodash';
 
