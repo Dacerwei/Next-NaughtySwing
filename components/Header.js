@@ -24,7 +24,6 @@ export default class Header extends React.Component {
     render() {
         return(
             <header className="header">
-                {/* TODO: 改為ns logo */}
                 <Link href="/">
                     <div className="logo">
                         <Logo id="nslogo"/>
