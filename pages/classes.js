@@ -5,7 +5,7 @@ import Layout from '../containers/Layout';
 export default class Classes extends React.Component {
     render() {
         return(
-            <div>
+            <div className="page-container">
                 <Layout>
                     <h1>Classes</h1>
                 </Layout>

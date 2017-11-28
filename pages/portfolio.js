@@ -4,7 +4,7 @@ import Layout from '../containers/Layout';
 export default class Portfolio extends React.Component {
     render() {
         return(
-            <div>
+            <div className="page-container">
                 <Layout>
                     <h1>Portfolio</h1>
                 </Layout>

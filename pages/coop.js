@@ -6,7 +6,7 @@ import _ from 'lodash';
 export default class Coop extends React.Component {
     render() {
         return(
-            <div>
+            <div className="page-container">
                 <Layout>
                 <section className="content-wrapper">
                     <div className='introduction ch'>
@@ -35,6 +35,11 @@ export default class Coop extends React.Component {
                     })
                 }
                 </Layout>
+                <style jsx>{`
+                    .media-img {
+                        width: 100%;
+                    }
+                `}</style>
             </div>
         );
     }

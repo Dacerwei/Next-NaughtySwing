@@ -56,7 +56,7 @@ export default class About extends React.Component {
         const years = [2017, 2016, 2015];
 
         return(
-            <div>
+            <div className="page-container">
                 <Layout>
                     <section className="section-wrapper">
                         <div className="title-wrapper">
