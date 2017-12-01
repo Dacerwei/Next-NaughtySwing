@@ -46,6 +46,9 @@ class Footer extends React.Component {
                     .logo-source {
                         text-align: center;
                         color: white;
+                        margin: 0;
+                        font-size: 20pt;
+                        letter-spacing: 1px;
                     }
                     .nav-list {
                         padding: 0;
@@ -54,13 +57,23 @@ class Footer extends React.Component {
                     .nav-item a {
                         text-decoration-line: none;
                         color: white;
+                        font-size: 14pt;
+                        line-height: 1.5em;
+                        letter-spacing: 1px;
                     }
                     .info-wrapper {
                         text-align: center;
                         color: white;
+                        padding: 10px;
+                        line-height: 1.5em;
+                    }
+                    .info-content {
+                        margin: 0px;
+                        font-size: 10pt;
                     }
                     .footer {
                         background-color: #000000;
+                        padding: 5%;
                     }
                 `}</style>
             </footer>

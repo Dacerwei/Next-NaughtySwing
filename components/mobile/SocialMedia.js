@@ -1,7 +1,7 @@
 import React from 'react';
-import FacebookIcon from '../../static/Facebook-color.svg';
-import Instagram from '../../static/Instagram-color.svg';
-import Youtube from '../../static/Youtube-color.svg';
+import FacebookIcon from '../../static/fb-white.svg';
+import Instagram from '../../static/ig-white.svg';
+import Youtube from '../../static/yt-white.svg';
 
 export default class SocialMedia extends React.Component {
     render() {
@@ -12,12 +12,15 @@ export default class SocialMedia extends React.Component {
                 <span className="social-media"><Youtube className="social-icon" id="yt"/></span>
                 <style jsx>{`
                     .social-icon {
-                        height: 100%;
+                        width: 48px;
+                        height: 48px;
+                        fill: white;
                     }
                     .social-media {
-                        width: 24px;
-                        height: 24px;
-                    }
+                        width: 48px;
+                        height: 48px;
+                        padding: 3px;
+]                    }
                     .social-media-wrapper {
                         width: 100%;
                         text-align: center;
