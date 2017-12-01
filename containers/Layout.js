@@ -22,7 +22,7 @@ export default class Layout extends React.Component {
                         }
                         #container {
                             position: relative;
-                            top: 60px;
+                            top: 50px;
                             left: 0;
                         }
                     `}</style>

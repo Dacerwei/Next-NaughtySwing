@@ -87,6 +87,7 @@ export default class Header extends React.Component {
                             top: 0;
                             left: 0;
                             background-color: black;
+                            z-index: 100;
                         }
                         .logo {
                             position: absolute;
