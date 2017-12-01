@@ -33,10 +33,10 @@ export default class Header extends React.Component {
                 <div className="menu-icon">
                     <IconButton
                         onClick={this.openMenu}>
-                        <MenuIcon />
+                        <MenuIcon color="#FFA500" />
                     </IconButton>
                 </div>
-                <Drawer width={300} openSecondary={true} open={this.state.open}>
+                <Drawer width={300} openSecondary={true} open={this.state.open} containerStyle={{backgroundColor: 'black'}}>
                     <ul>
                         <nav>
                             <Link href="/">
@@ -71,22 +71,28 @@ export default class Header extends React.Component {
                     </ul>
                     <SocialMedia />
                     <IconButton>
-                        <CloseIcon onClick={this.openMenu}/>
+                        <CloseIcon color="#FFA500" onClick={this.openMenu}/>
                     </IconButton>
                 </Drawer>
                 <style jsx>{`
+                        .icon {
+                            color: white;
+                        }
                         .header {
                             width: 100%;
-                            height: 80px;
+                            height: 60px;
                             margin: 0;
                             padding: 0;
-                            position: relative;
+                            position: fixed;
+                            top: 0;
+                            left: 0;
+                            background-color: black;
                         }
                         .logo {
                             position: absolute;
                             top: 1%;
                             left: 5%;
-                            width: 100px;
+                            width: 80px;
                             margin: 0;
                             padding: 0;
                         }

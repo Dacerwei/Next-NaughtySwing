@@ -20,9 +20,10 @@ export default class Layout extends React.Component {
                         .naughty {
                             color: #FFA500;
                         }
-                        .highlight-container {
-                            background-color: #000000;
-                            color: #FFFFFF;
+                        #container {
+                            position: relative;
+                            top: 60px;
+                            left: 0;
                         }
                     `}</style>
                 </div>
