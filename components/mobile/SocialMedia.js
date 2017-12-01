@@ -20,7 +20,7 @@ export default class SocialMedia extends React.Component {
                         width: 48px;
                         height: 48px;
                         padding: 3px;
-]                    }
+                    }
                     .social-media-wrapper {
                         width: 100%;
                         text-align: center;

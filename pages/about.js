@@ -72,7 +72,7 @@ export default class About extends React.Component {
                             <h2 className="title">Experience | 經歷</h2>
                         </div>
                         <div className="content-wrapper">
-                            <div>
+                            <div className="yearitem-bar">
                             {
                                 _.map(years, (currentYear) => {
                                     let yearButtonClass = Classnames({
@@ -100,6 +100,45 @@ export default class About extends React.Component {
                         </div>
                     </section>
                 </Layout>
+                <style jsx>{`
+                    .section-wrapper {
+                        padding: 2%;
+                    }
+                    .title {
+                        font-size: 16pt;
+                        color: orange;
+                    }
+                    .content {
+                        font-size: 12pt;
+                        line-height: 2em;
+                    }
+                    .yearitem-bar {
+                        text-align: center;
+                    }
+                    .yearitem {
+                        margin: 5px;
+                        font-size: 14pt;
+                        padding-bottom: 5px;
+                    }
+                    .yearitem-active {
+                        border-bottom-style: solid;
+                        border-bottom-color: orange;
+                        border-bottom-width: 2px;
+                    }
+                    .timeline-item {
+                        text-align: center;
+                        padding-top: 5px;
+                        padding-bottom: 5px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                    }
+                    .timeline-item-date {
+                        font-size: 10pt;
+                    }
+                    .timeline-item-title {
+                        font-size: 12pt;
+                    }
+                `}</style>
             </div>
         );
     }
