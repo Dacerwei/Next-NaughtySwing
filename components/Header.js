@@ -37,33 +37,33 @@ export default class Header extends React.Component {
                     </IconButton>
                 </div>
                 <Drawer width={300} openSecondary={true} open={this.state.open} containerStyle={{backgroundColor: 'black'}}>
-                    <ul>
-                        <nav>
+                    <ul className="menu-list">
+                        <nav className='menu-item'>
                             <Link href="/">
                                 <a>Home</a>
                             </Link>
                         </nav>
-                        <nav>
+                        <nav className='menu-item'>
                             <Link href="/about">
                                 <a>About</a>
                             </Link>
                         </nav>
-                        <nav>
+                        <nav className='menu-item'>
                             <Link href="/portfolio">
                                 <a>Portfolio</a>
                             </Link>
                         </nav>
-                        <nav>
+                        <nav className='menu-item'>
                             <Link href="/coop">
                                 <a>Co-op</a>
                             </Link>
                         </nav>
-                        <nav>
+                        <nav className='menu-item'>
                             <Link href="/classes">
                                 <a>Classes</a>
                             </Link>
                         </nav>
-                        <nav>
+                        <nav className='menu-item'>
                             <Link href="/events">
                                 <a>Events</a>
                             </Link>
@@ -109,6 +109,18 @@ export default class Header extends React.Component {
                             text-align: center;
                             margin: 0;
                             padding: 0;
+                        }
+                        .menu-list {
+                            padding:0;
+                            margin: 0;
+                            text-align: center;
+                        }
+                        .menu-item a {
+                            text-decoration-line: none;
+                            color: #FFA500;
+                            font-size: 14pt;
+                            line-height: 1.5em;
+                            letter-spacing: 1px;
                         }
                     `}</style>
             </header>
