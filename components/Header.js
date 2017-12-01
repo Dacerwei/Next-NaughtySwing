@@ -5,6 +5,7 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui/svg-icons/navigation/menu';
 import CloseIcon from 'material-ui/svg-icons/navigation/close';
 import Logo from '../static/ns_logo.svg';
+import SocialMedia from './mobile/SocialMedia';
 
 export default class Header extends React.Component {
     constructor(props) {
@@ -68,6 +69,7 @@ export default class Header extends React.Component {
                             </Link>
                         </nav>
                     </ul>
+                    <SocialMedia />
                     <IconButton>
                         <CloseIcon onClick={this.openMenu}/>
                     </IconButton>

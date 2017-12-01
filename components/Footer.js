@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import SocialMedia from './mobile/SocialMedia';
 
 class Footer extends React.Component {
     render() {
@@ -35,6 +36,7 @@ class Footer extends React.Component {
                         </Link>
                     </nav>
                 </ul>
+                <SocialMedia />
                 <div className='info-wrapper'>
                     <p className="info-content">Contact Us : naughtyswingtw@gmail.com</p>
                     <p className="info-content">Copyright © 2015 Naughty Swing. All rights reserved.</p>
