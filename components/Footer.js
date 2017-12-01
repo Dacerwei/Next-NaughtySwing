@@ -42,6 +42,27 @@ class Footer extends React.Component {
                     <p className="info-content">Copyright © 2015 Naughty Swing. All rights reserved.</p>
                     <p className="info-content">SITE BY CHINWEI HSU</p>
                 </div>
+                <style jsx>{`
+                    .logo-source {
+                        text-align: center;
+                        color: white;
+                    }
+                    .nav-list {
+                        padding: 0;
+                        text-align: center;
+                    }
+                    .nav-item a {
+                        text-decoration-line: none;
+                        color: white;
+                    }
+                    .info-wrapper {
+                        text-align: center;
+                        color: white;
+                    }
+                    .footer {
+                        background-color: #000000;
+                    }
+                `}</style>
             </footer>
         );
     }
