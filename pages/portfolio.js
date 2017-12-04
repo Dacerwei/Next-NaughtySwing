@@ -12,8 +12,8 @@ export default class Portfolio extends React.Component {
                 {
                     _.map(PortfolioSets, (portfolio) => {
                         return(
-                            <Link href={`/portfolioitem?id=${portfolio.ID}`}>
-                                <figure className="portfolio-wrapper" key={portfolio.ID}>
+                            <Link href={`/portfolioitem?id=${portfolio.ID}`} key={portfolio.ID}>
+                                <figure className="portfolio-wrapper">
                                     <img className="portfolio-img" src={portfolio.src}/>
                                     <figcaption className="portfolio-figcaption">
                                         <h2>{portfolio.title}</h2>

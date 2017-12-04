@@ -18,7 +18,7 @@ export default class Index extends React.Component {
                     <ClassesHighlight />
                     <AboutHighlight />
                     <CoopHighlight />
-                    <PortfolioHighlight showNumber={3} />
+                    <PortfolioHighlight />
                 </Layout>
                 <style jsx>{`
                     #main-highlight {

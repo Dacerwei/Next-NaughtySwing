@@ -6,14 +6,13 @@ import _ from 'lodash';
 
 class PortfolioHighlight extends React.Component {
     render() {
-        const { showNumber } = this.props.showNumber;
         return(
             <section className="highlight-wrapper" id="portfolio-highlight">
             {
-                _.map(_.take(PortfolioSets, showNumber), (portfolio) => {
+                _.map(_.take(PortfolioSets, 3), (portfolio) => {
                     return(
-                        <Link href={`/portfolioitem?id=${portfolio.ID}`}>
-                            <figure className="portfolio-wrapper" key={portfolio.ID}>
+                        <Link href={`/portfolioitem?id=${portfolio.ID}`} key={portfolio.ID}>
+                            <figure className="portfolio-wrapper">
                                 <img className="portfolio-img" src={portfolio.src}/>
                                 <figcaption className="portfolio-figcaption">
                                     <h2>{portfolio.title}</h2>
