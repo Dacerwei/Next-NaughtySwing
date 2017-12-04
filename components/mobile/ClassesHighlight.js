@@ -3,7 +3,7 @@ import React from 'react';
 export default class ClassesHighlight extends React.Component{
     render() {
         return(
-            <div className="highlight-container" id="classes-highlight">
+            <div className="highlight-wrapper" id="classes-highlight">
                 <h2 className="classes-promote-title">近期教學活動</h2>
                 <div className="classes-promote-content">
                     <iframe
