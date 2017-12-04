@@ -3,6 +3,7 @@ import Layout from '../containers/Layout';
 import ClassesHighlight from '../components/mobile/ClassesHighlight';
 import AboutHighlight from '../components/mobile/AboutHighlight';
 import CoopHighlight from '../components/mobile/CoopHighlight';
+import PortfolioHighlight from '../components/mobile/PortfolioHighlight';
 
 export default class Index extends React.Component {
     render() {
@@ -14,9 +15,10 @@ export default class Index extends React.Component {
                         <h1 className="slogan">We're <strong className="naughty"> Naughty </strong> so we <strong className="naughty"> Swing </strong></h1>
                     </div>
                 </div>
-                    <ClassesHighlight/>
-                    <AboutHighlight/>
-                    <CoopHighlight/>
+                    <ClassesHighlight />
+                    <AboutHighlight />
+                    <CoopHighlight />
+                    <PortfolioHighlight showNumber={3} />
                 </Layout>
                 <style jsx>{`
                     #main-highlight {

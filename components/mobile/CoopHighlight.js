@@ -6,7 +6,7 @@ import _ from 'lodash';
 export default class CoopHighlight extends React.Component{
     render() {
         return(
-            <section className="highlight-wrapper" id="about-highlight">
+            <section className="highlight-wrapper" id="coop-highlight">
                     <div className="title-wrapper">
                         <h2 className="highlight-title">CO-OP | 合作項目</h2>
                     </div>
