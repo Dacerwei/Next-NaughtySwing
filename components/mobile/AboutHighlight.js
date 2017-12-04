@@ -4,7 +4,7 @@ import ReadMore from '../ReadMoreBTN';
 export default class AboutHighlight extends React.Component{
     render() {
         return(
-            <div className="highlight-wrapper" id="about-highlight">
+            <section className="highlight-wrapper" id="about-highlight">
                 <div className="title-wrapper">
                     <h2 className="highlight-title">Introduction | 舞團介紹</h2>
                 </div>
@@ -22,7 +22,7 @@ export default class AboutHighlight extends React.Component{
                         color: orange;
                     }
                 `}</style>
-            </div>
+            </section>
         );
     }
 }

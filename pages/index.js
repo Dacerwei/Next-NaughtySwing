@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../containers/Layout';
 import ClassesHighlight from '../components/mobile/ClassesHighlight';
 import AboutHighlight from '../components/mobile/AboutHighlight';
+import CoopHighlight from '../components/mobile/CoopHighlight';
 
 export default class Index extends React.Component {
     render() {
@@ -15,6 +16,7 @@ export default class Index extends React.Component {
                 </div>
                     <ClassesHighlight/>
                     <AboutHighlight/>
+                    <CoopHighlight/>
                 </Layout>
                 <style jsx>{`
                     #main-highlight {
