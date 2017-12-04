@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../containers/Layout';
 import PortfolioSets from '../data/PortfolioSets';
+import Link from 'next/link';
 import _ from 'lodash';
 
 export default class Portfolio extends React.Component {
@@ -11,13 +12,14 @@ export default class Portfolio extends React.Component {
                 {
                     _.map(PortfolioSets, (portfolio) => {
                         return(
-                            <figure className="portfolio-wrapper">
-                                <img className="portfolio-img"
-                                    src={portfolio.src}/>
-                                <figcaption className="portfolio-figcaption">
-                                    <h2>{portfolio.title}</h2>
-                                </figcaption>
-                            </figure>
+                            <Link href={`/portfolioitem?id=${portfolio.ID}`}>
+                                <figure className="portfolio-wrapper" key={portfolio.ID}>
+                                    <img className="portfolio-img" src={portfolio.src}/>
+                                    <figcaption className="portfolio-figcaption">
+                                        <h2>{portfolio.title}</h2>
+                                    </figcaption>
+                                </figure>
+                            </Link>
                         );
                     })
                 }

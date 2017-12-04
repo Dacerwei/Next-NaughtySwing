@@ -17,9 +17,9 @@ export default class CoopHighlight extends React.Component{
                     {
                         _.map(CoopSets, (coopItem) => {
                             return(
-                                <div className="serviceitem-wrapper">
+                                <div className="serviceitem-wrapper" key={coopItem.id}>
                                     <div className="icon-wrapper">
-                                        <img id={coopItem.id} className="icon-src" src={coopItem.iconSrc} />
+                                        <img className="icon-src" src={coopItem.iconSrc} />
                                     </div>
                                     <div className="serviceitem-title-wrapper">
                                         <h1 className="serviceitem-title">{coopItem.title}</h1>
