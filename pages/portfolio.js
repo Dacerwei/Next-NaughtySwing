@@ -43,7 +43,7 @@ export default class Portfolio extends React.Component {
                         right: 0;
                         top: 25%;
                         bottom: 0;
-                        font-size: 14pt;
+                        font-size: 90%;
                         text-align: center;
                         color: white;
                         text-shadow: 0 0 10px rgba(0, 0, 0, 1);
