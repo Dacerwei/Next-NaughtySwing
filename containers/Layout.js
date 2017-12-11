@@ -17,6 +17,9 @@ export default class Layout extends React.Component {
                     {this.props.children}
                     <Footer />
                     <style jsx global>{`
+                        body {
+                            margin: 0;
+                        }
                         .naughty {
                             color: #FFA500;
                         }

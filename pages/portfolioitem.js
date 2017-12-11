@@ -8,7 +8,7 @@ const PortfolioItemPage = (props) => {
     return(
         <div className="page-container">
             <Layout>
-                <div className="item-wrapper">
+                <div className="item-wrapper" id="portfolio-item-page">
                     <div className="title-wrapper">
                         <h1 className="title">{PortfolioItem.title}</h1>
                     </div>
@@ -33,6 +33,13 @@ const PortfolioItemPage = (props) => {
                 </div>
             </Layout>
             <style jsx>{`
+                #portfolio-item-page {
+                    background-color: black;
+                    color: white;
+                }
+                .item-wrapper {
+                    padding: 2%;
+                }
                 .title-wrapper {
                     text-align: center;
                     padding: 2%;
@@ -44,9 +51,10 @@ const PortfolioItemPage = (props) => {
                 .content-wrapper {
                     padding: 2%;
                 }
-                .conent {
+                .content {
                     font-size: 12pt;
-                    line-height: 2em;
+                    line-height: 1.5em;
+                    padding: 2%;
                 }
 
             `}</style>
