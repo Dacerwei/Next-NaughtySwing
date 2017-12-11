@@ -7,7 +7,7 @@ import _ from 'lodash';
 export default class Portfolio extends React.Component {
     render() {
         return(
-            <div className="page-container">
+            <div className="page-container" id="portfolio-page">
                 <Layout>
                 {
                     _.map(PortfolioSets, (portfolio) => {
@@ -25,8 +25,28 @@ export default class Portfolio extends React.Component {
                 }
                 </Layout>
                 <style jsx>{`
+                    #portfolio-page {
+                        background-color: black;
+                    }
+                    .portfolio-wrapper {
+                        margin: 0;
+                        position: relative;
+\                    }
                     .portfolio-img {
                         width: 100%;
+                    }
+                    .portfolio-figcaption {
+                        margin: 0 auto;
+                        width: 80%;
+                        position: absolute;
+                        left: 0;
+                        right: 0;
+                        top: 25%;
+                        bottom: 0;
+                        font-size: 14pt;
+                        text-align: center;
+                        color: white;
+                        text-shadow: 0 0 10px rgba(0, 0, 0, 1);
                     }
                 `}</style>
             </div>
