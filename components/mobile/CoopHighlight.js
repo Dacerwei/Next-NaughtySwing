@@ -19,7 +19,7 @@ export default class CoopHighlight extends React.Component{
                             return(
                                 <div className="serviceitem-wrapper" key={coopItem.id}>
                                     <div className="icon-wrapper">
-                                        <img className="icon-src" src={coopItem.iconSrc} />
+                                        <div className="icon-src" style={{backgroundImage: "url(" + coopItem.iconSrc + ")"}}></div>
                                     </div>
                                     <div className="serviceitem-title-wrapper">
                                         <h1 className="serviceitem-title">{coopItem.title}</h1>
@@ -34,6 +34,37 @@ export default class CoopHighlight extends React.Component{
                     }
                     <ReadMore url="coop" label="More"/>
                 <style jsx>{`
+                    #coop-highlight {
+                        background-color: black;
+                        color: white;
+                    }
+                    .content-wrapper {
+                        padding-right: 4%;
+                        padding-left: 4%;
+                        line-height: 2em;
+                    }
+                    .serviceitem-wrapper {
+                        padding: 2%;
+                    }
+                    .icon-src {
+                        margin: 0 auto;
+                        height: 150px;
+                        width: 150px;
+                        background-size: cover;
+                        background-color: rgba(113,200,213,0.8);
+                        border-radius: 50%;
+                    }
+                    .serviceitem-title {
+                        font-size: 14pt;
+                        text-align: center;
+                        color: orange;
+                    }
+                    .serviceitem-content-wrapper {
+                        padding-left: 4%;
+                        padding-right: 4%;
+                        font-size: 12pt;
+                        line-height: 2em;
+                    }
                 `}</style>
             </section>
         );
