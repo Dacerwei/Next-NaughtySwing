@@ -38,9 +38,13 @@ export default class CoopHighlight extends React.Component{
                         background-color: black;
                         color: white;
                     }
+                    .highlight-title {
+                        text-align: center;
+                    }
                     .content-wrapper {
-                        padding-right: 4%;
-                        padding-left: 4%;
+                        text-align: center;
+                        padding-right: 5%;
+                        padding-left: 5%;
                         line-height: 2em;
                     }
                     .serviceitem-wrapper {
@@ -60,8 +64,8 @@ export default class CoopHighlight extends React.Component{
                         color: orange;
                     }
                     .serviceitem-content-wrapper {
-                        padding-left: 4%;
-                        padding-right: 4%;
+                        padding-left: 10%;
+                        padding-right: 10%;
                         font-size: 12pt;
                         line-height: 2em;
                     }
