@@ -24,7 +24,7 @@ class PortfolioHighlight extends React.Component {
             }
             <ReadMore url="portfolio" label="More"/>
             <style jsx>{`
-                #portfolio-page {
+                #portfolio-highlight {
                     background-color: black;
                 }
                 .portfolio-wrapper {
