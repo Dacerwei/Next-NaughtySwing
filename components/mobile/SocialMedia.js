@@ -7,9 +7,15 @@ export default class SocialMedia extends React.Component {
     render() {
         return(
             <div className="social-media-wrapper">
-                <span className="social-media"><FacebookIcon className="social-icon" id="fb"/></span>
-                <span className="social-media"><Instagram className="social-icon" id="ig"/></span>
-                <span className="social-media"><Youtube className="social-icon" id="yt"/></span>
+                <a href="https://www.facebook.com/nsintaiwan/" target="blank">
+                    <span className="social-media"><FacebookIcon className="social-icon" id="fb"/></span>
+                </a>
+                <a href="https://www.instagram.com/naughtyswing/" target="blank">
+                    <span className="social-media"><Instagram className="social-icon" id="ig"/></span>
+                </a>
+                <a href="https://www.youtube.com/channel/UCOO0wsdVDe1KXN9t1ND6_Cw" target="blank">
+                    <span className="social-media"><Youtube className="social-icon" id="yt"/></span>
+                </a>
                 <style jsx>{`
                     .social-icon {
                         width: 48px;
