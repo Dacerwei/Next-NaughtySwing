@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui/svg-icons/navigation/menu';
-import CloseIcon from 'material-ui/svg-icons/navigation/close';
 import Logo from '../static/ns_logo.svg';
 import SocialMedia from './mobile/SocialMedia';
 
@@ -70,13 +69,24 @@ export default class Header extends React.Component {
                         </nav>
                     </ul>
                     <SocialMedia />
-                    <IconButton>
-                        <CloseIcon color="#FFA500" onClick={this.openMenu}/>
-                    </IconButton>
+                    <div className="close-icon-wrapper">
+                        <label onClick={this.openMenu}>Close</label>
+                    </div>
                 </Drawer>
                 <style jsx>{`
                         .icon {
                             color: white;
+                        }
+                        .close-icon-wrapper {
+                            color: orange;
+                            text-align: center;
+                            font-size: 14pt;
+                            padding: 10px;
+                            margin: 0 auto;
+                            margin-top: 20px;
+                            width: 70%;
+                            background-color: #2D2D2D;
+                            border-radius: 20px;
                         }
                         .header {
                             width: 100%;
