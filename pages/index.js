@@ -15,8 +15,8 @@ export default class Index extends React.Component {
                         <h1 className="slogan">We're <strong className="naughty"> Naughty </strong> so we <strong className="naughty"> Swing </strong></h1>
                     </div>
                 </div>
-                    <ClassesHighlight />
                     <AboutHighlight />
+                    <ClassesHighlight />
                     <CoopHighlight />
                     <PortfolioHighlight />
                 </Layout>
