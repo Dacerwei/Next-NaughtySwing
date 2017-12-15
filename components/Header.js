@@ -69,8 +69,8 @@ export default class Header extends React.Component {
                         </nav>
                     </ul>
                     <SocialMedia />
-                    <div className="close-icon-wrapper">
-                        <label onClick={this.openMenu}>Close</label>
+                    <div className="close-icon-wrapper" onClick={this.openMenu}>
+                        <label>Close</label>
                     </div>
                 </Drawer>
                 <style jsx>{`
