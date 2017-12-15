@@ -113,8 +113,14 @@ export default class Header extends React.Component {
                         }
                         .menu-list {
                             padding:0;
-                            margin: 0;
+                            margin-top: 10%;
+                            margin-bottom: 0;
                             text-align: center;
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .menu-item {
+                            min-height: 80px;
                         }
                         .menu-item a {
                             text-decoration-line: none;
