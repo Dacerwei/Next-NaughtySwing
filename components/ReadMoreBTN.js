@@ -4,7 +4,7 @@ import Link from 'next/link';
 const ReadMoreBTN = (props) => {
     return(
         <div className="read-more-wrapper">
-            <Link href={props.url}>
+            <Link href={props.url} target={props.tartget}>
                 <a>{props.label}</a>
             </Link>
             <style jsx>{`

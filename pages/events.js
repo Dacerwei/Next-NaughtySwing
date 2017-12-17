@@ -60,6 +60,7 @@ export default class Events extends React.Component {
                 <style jsx>{`
                     .section-wrapper {
                         padding: 2%;
+                        text-align: center;
                     }
                     .events-title {
                         text-align: center;

@@ -9,6 +9,8 @@ const class_set = [
             en: "Beginner"
         },
         style: "Lindy Hop",
+        topic: "basic swing-out",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: true,
     },
     {
@@ -21,6 +23,8 @@ const class_set = [
             en: "Beginner"
         },
         style: "Charleston",
+        topic: "basic charleston",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: true,
     },
     {
@@ -33,6 +37,8 @@ const class_set = [
             en: "beg/int"
         },
         style: "Lindy Hop",
+        topic: "swing out",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: true,
     },
     {
@@ -45,6 +51,8 @@ const class_set = [
             en: "beg/int"
         },
         style: "Lindy Hop",
+        topic: "sugar push",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: true,
     },
     {
@@ -57,6 +65,8 @@ const class_set = [
             en: "intermediate"
         },
         style: "Lindy Hop",
+        topic: "Aerial Movements",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: false,
     },
     {
@@ -69,6 +79,8 @@ const class_set = [
             en: "advance"
         },
         style: "Lindy Hop",
+        topic: "Musicality",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: false,
     },
     {
@@ -81,6 +93,8 @@ const class_set = [
             en: "Solo Jazz"
         },
         style: "Solo Jazz",
+        topic: "Solo Jazz",
+        signUpLink: "https://docs.google.com/forms/d/e/1FAIpQLScky-C4jHWIsfx-5cxKZ93IUKyyO4LJPhQfBTMBT0JJUBb0YA/viewform",
         open: true,
     },
 ]
