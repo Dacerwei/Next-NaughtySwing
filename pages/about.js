@@ -67,7 +67,7 @@ export default class About extends React.Component {
                             <p className="content en">Naughty Swing is founded in 2015 by 6 talented Taiwanese dancers, each with over 10 years of experience in street dance. As one of the most iconic dance crews in Taiwan, Naughty Swing is keen to integrate elements from different dance styles and to give unprecedented performances. "I Charleston Taipei" is their first official dance film project launched in 2016, reaching over 500,000 views on YouTube within 2 weeks, and was reported on by over 10 media, including Taiwan Today, Apple Daily and TVBS.</p>
                         </div>
                     </section>
-                    <section className="section-wrapper">
+                    <section className="section-wrapper" id="experience">
                         <div className="title-wrapper">
                             <h2 className="title">Experience | 經歷</h2>
                         </div>
@@ -104,9 +104,17 @@ export default class About extends React.Component {
                     .section-wrapper {
                         padding: 2%;
                     }
+                    #experience {
+                        background-color: black;
+                        color: white;
+                    }
                     .title {
                         font-size: 16pt;
                         color: orange;
+                    }
+                    .content-wrapper {
+                        padding-left: 4%;
+                        padding-right: 4%;
                     }
                     .content {
                         font-size: 12pt;
@@ -134,6 +142,7 @@ export default class About extends React.Component {
                     }
                     .timeline-item-date {
                         font-size: 10pt;
+                        color: lightgray;
                     }
                     .timeline-item-title {
                         font-size: 12pt;
