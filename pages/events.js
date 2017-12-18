@@ -2,8 +2,7 @@ import React from 'react';
 import Layout from '../containers/Layout';
 import _ from 'lodash';
 import Youtube from 'react-youtube';
-
-const soloJazzCompetition = [1,2,3,4,5,6];
+import CompetitionRecords from '../data/CompetitionsRecord';
 
 export default class Events extends React.Component {
     render() {
@@ -28,28 +27,56 @@ export default class Events extends React.Component {
                         </div>
                     </section>
                     <section className="section-wrapper">
-                        <h1 className="events-title">Solo Jazz Competition!</h1>
+                        <h1 className="events-title">Competitions</h1>
                         <ul className="competition-list">
                         {
-                            _.map(soloJazzCompetition, (i) => {
+                            _.map(CompetitionRecords, (record) => {
                                 return(
                                     <div className="wtp-wrapper">
-                                        <h2>What the Pa! Vol.{i} Solo Jazz Competition</h2>
-                                        <p>this is wtp vol.{i}, and it was awesome!!!</p>
-                                        <p>First place: chinwei hsu</p>
-                                        <p>Second place: Willie Lin</p>
-                                        <p>Third place: Hao Tseng</p>
-                                        <div className="video-wrapper">
-                                            <Youtube
-                                                videoId="6VhozvSgXGY"
-                                                id="6VhozvSgXGY"
-                                                className="youtubevideo"
-                                                opts={{
-                                                    width: '100%',
-                                                    height: 'auto',
-                                                }}
-                                            />
-                                        </div>
+                                        <h2>What the Pa! Vol.{record.serialNumber} Competitions</h2>
+                                        {
+                                            _.map(record.results, (result) => {
+                                                return(
+                                                    <div>
+                                                        {
+                                                            result.level &&
+                                                            <h3>Level: {result.level}</h3>
+                                                        }
+                                                        {
+                                                            !_.isEmpty(result.judge) &&
+                                                            <p>Judge: {_.join(result.judge, ',')}</p>
+                                                        }
+                                                        {
+                                                            result.placement.first &&
+                                                            <p>First place: {result.placement.first}</p>
+                                                        }
+                                                        {
+                                                            result.placement.second &&
+                                                            <p>Second place:{result.placement.second}</p>
+                                                        }
+                                                        {
+                                                            result.placement.third &&
+                                                            <p>Third place: {result.placement.third}</p>
+                                                        }
+                                                        {
+                                                            result.videoId &&
+                                                            <div className="video-wrapper">
+                                                                <Youtube
+                                                                    videoId={result.videoId}
+                                                                    id={result.videoId}
+                                                                    className="youtubevideo"
+                                                                    opts={{
+                                                                        width: '100%',
+                                                                        height: '300px',
+                                                                    }}
+                                                                />
+                                                            </div>
+
+                                                        }
+                                                    </div>
+                                                )
+                                            })
+                                        }
                                     </div>
                                 );
                             })
