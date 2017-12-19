@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../containers/Layout';
 import PortfolioSets from '../data/PortfolioSets';
 import Youtube from 'react-youtube';
+import PortfolioHighlight from '../components/mobile/PortfolioHighlight';
 
 const PortfolioItemPage = (props) => {
     const PortfolioItem = PortfolioSets[props.url.query.id];
@@ -30,6 +31,10 @@ const PortfolioItemPage = (props) => {
                         <p className="content ch">{PortfolioItem.chineseDescription}</p>
                         <p className="content en">{PortfolioItem.englishDescription}</p>
                     </div>
+                    <div className="title-wrapper">
+                        <h2 className="title">More From Naughty Swing</h2>
+                    </div>
+                    <PortfolioHighlight />
                 </div>
             </Layout>
             <style jsx>{`
