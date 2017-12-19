@@ -21,7 +21,7 @@ const PortfolioItemPage = (props) => {
                                 className="youtubevideo"
                                 opts={{
                                     width: '100%',
-                                    height: 'auto',
+                                    height: '300px',
                                 }}
                             />
                         </div>

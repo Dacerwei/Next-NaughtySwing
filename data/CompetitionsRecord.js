@@ -1,34 +1,6 @@
 const CompetitionsRecord_set = [
-	{
-        id: 0,
-        serialNumber: 1,
-        results: [
-            {
-                level: "open",
-                type: null,
-                judge: [],
-                placement: {
-                    first: null,
-                    second: null,
-                    third: null
-                },
-                videoId: null
-            },
-            {
-                level: "advance",
-                type: null,
-                judge: [],
-                placement: {
-                    first: null,
-                    second: null,
-                    third: null
-                },
-                videoId: null
-            }
-        ],
-    },
     {
-        id: 1,
+        id: 0,
         serialNumber: 2,
         type: null,
         results: [
@@ -58,7 +30,7 @@ const CompetitionsRecord_set = [
         videoId: null
     },
     {
-        id: 2,
+        id: 1,
         serialNumber: 3,
         results: [
             {
@@ -75,7 +47,7 @@ const CompetitionsRecord_set = [
         ],
     },
     {
-        id: 3,
+        id: 2,
         serialNumber: 4,
         type: null,
         results: [
@@ -93,7 +65,7 @@ const CompetitionsRecord_set = [
         ],
     },
     {
-        id: 4,
+        id: 3,
         serialNumber: 5,
         type: null,
         results: [
@@ -118,35 +90,6 @@ const CompetitionsRecord_set = [
                     third: null
                 },
                 videoId: "6VhozvSgXGY"
-            }
-        ],
-    },
-    {
-        id: 5,
-        serialNumber: 6,
-        type: null,
-        results: [
-            {
-                level: "open",
-                type: null,
-                judge: [],
-                placement: {
-                    first: null,
-                    second: null,
-                    third: null
-                },
-                videoId: null
-            },
-            {
-                level: "advance",
-                type: null,
-                judge: [],
-                placement: {
-                    first: null,
-                    second: null,
-                    third: null
-                },
-                videoId: null
             }
         ],
     }
